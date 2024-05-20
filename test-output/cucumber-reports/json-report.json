@@ -1,0 +1,3711 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:33.391Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify the functionality of CreateOneDeliveryWithListOfItemsUsingDT",
+        "description": "",
+        "id": "pwp-flow;verify-the-functionality-of-createonedeliverywithlistofitemsusingdt",
+        "after": [
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "integrator"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "3poXy$6o29"
+                ]
+              },
+              {
+                "cells": [
+                  "requestId",
+                  "0000001376364111"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "Assigning Main Mandatory fields to CreateOneDeliveryWithListOfItemsUsingDT",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.CreateDeliveryStep.assigningMainMandatoryFieldsToCreateOneDeliveryWithListOfItemsUsingDT(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "srcSiteId",
+                  "1014"
+                ]
+              },
+              {
+                "cells": [
+                  "dstSiteId",
+                  "5019"
+                ]
+              },
+              {
+                "cells": [
+                  "whNumber",
+                  "114"
+                ]
+              },
+              {
+                "cells": [
+                  "createdBy",
+                  "MHK"
+                ]
+              },
+              {
+                "cells": [
+                  "totalGdsMvtStat",
+                  "A"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "Provide dlvItemNum to CreateOneDeliveryWithListOfItemsUsingDT",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.CreateDeliveryStep.provideDlvItemNumToCreateOneDeliveryWithListOfItemsUsingDT(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "itemSeq",
+                  "stoNum",
+                  "stoLineNum",
+                  "ean",
+                  "mrp",
+                  "matNum",
+                  "itemDesc",
+                  "matGrp",
+                  "catInd",
+                  "stLoc",
+                  "batch",
+                  "proposedDlvQty",
+                  "caselot",
+                  "uom",
+                  "itemWt",
+                  "uomWt",
+                  "itemVol",
+                  "uomVol",
+                  "pickStatus"
+                ]
+              },
+              {
+                "cells": [
+                  "000010",
+                  "5101334418",
+                  "000010",
+                  "4902430905183",
+                  "50.00",
+                  "500017406",
+                  "ORAL B KIDS 2+ YEAR TOOTHBRUSH(3N)",
+                  "5OCTBRBAB",
+                  "F",
+                  "3000",
+                  "2503210050",
+                  "96.000",
+                  "48.00",
+                  "EA",
+                  "0.067",
+                  "KG",
+                  "0.021",
+                  "FT3",
+                  "A"
+                ]
+              },
+              {
+                "cells": [
+                  "000020",
+                  "5101334418",
+                  "000020",
+                  "8901314524010",
+                  "170.00",
+                  "500017575",
+                  "COLGATE MAXFRESH BLUE GEL TP(300G)",
+                  "5OCTTPGEL",
+                  "F",
+                  "3000",
+                  "0103210170",
+                  "96.000",
+                  "48.00",
+                  "EA",
+                  "0.360",
+                  "KG",
+                  "0.027",
+                  "FT3",
+                  "A"
+                ]
+              },
+              {
+                "cells": [
+                  "000030",
+                  "5101334418",
+                  "000030",
+                  "8903363007247",
+                  "150.00",
+                  "500017602",
+                  "GRACE CITRUS PASSI SHOWER GEL 250ML",
+                  "5PWLSPBWS",
+                  "F",
+                  "3000",
+                  "0103210150",
+                  "72.000",
+                  "36.00",
+                  "EA",
+                  "0.369",
+                  "KG",
+                  "0.22",
+                  "FT3",
+                  "A"
+                ]
+              },
+              {
+                "cells": [
+                  "000040",
+                  "5101334418",
+                  "000040",
+                  "8903363007254",
+                  "150.00",
+                  "500017603",
+                  "GRACE DEEP IMPACT SHOWER GEL 250M",
+                  "5PWLSPBWS",
+                  "F",
+                  "3000",
+                  "0103210150",
+                  "72.000",
+                  "36.00",
+                  "EA",
+                  "0.303",
+                  "KG",
+                  "0.022",
+                  "FT3",
+                  "A"
+                ]
+              },
+              {
+                "cells": [
+                  "000050",
+                  "5101334418",
+                  "000050",
+                  "8903363006868",
+                  "149.00",
+                  "500017671",
+                  "MEADOWS AIR FRESHENER LAV BLS-240ML",
+                  "5AFHFRSPR",
+                  "G",
+                  "3000",
+                  "0103210149",
+                  "96.000",
+                  "48.00",
+                  "EA",
+                  "0.303",
+                  "KG",
+                  "0.022",
+                  "FT3",
+                  "A"
+                ]
+              },
+              {
+                "cells": [
+                  "000060",
+                  "5101334418",
+                  "000060",
+                  "8901248154031",
+                  "110.00",
+                  "500018038",
+                  "BOROPLUS ALOV HAL CH KES GEL(150ML)",
+                  "5SKCSLFWS",
+                  "Q",
+                  "3000",
+                  "0103210110",
+                  "96.000",
+                  "48.00",
+                  "EA",
+                  "0.215",
+                  "KG",
+                  "0.028",
+                  "FT3",
+                  "A"
+                ]
+              },
+              {
+                "cells": [
+                  "000070",
+                  "5101334418",
+                  "000070",
+                  "4987176023476",
+                  "199.00",
+                  "500018258",
+                  "PAMPERS ALOE BABY WIPS(72N)",
+                  "5PHICRTSW",
+                  "Q",
+                  "3000",
+                  "0101210199",
+                  "96.000",
+                  "48.00",
+                  "EA",
+                  "0.250",
+                  "KG",
+                  "0.099",
+                  "FT3",
+                  "A"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3689000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "User calls the to createDelivery End point to   CreateOneDeliveryWithListOfItemsUsingDT",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.CreateDeliveryStep.userCallsTheToCreateDeliveryEndPointToCreateOneDeliveryWithListOfItemsUsingDT()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "verify that status code be equal to \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"201\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateOneDeliveryWithListOfItemsUsingDT"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:37.422Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "verify the functionality of GetListofDeliveriesEndpoint",
+        "description": "",
+        "id": "pwp-flow;verify-the-functionality-of-getlistofdeliveriesendpoint",
+        "after": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1801000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 34,
+            "name": "send GetDelivery End point to get the data",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetListOfDeleviriesStep.sendGetDeliveryEndPointToGetTheData()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 35,
+            "name": "verify that status code be equal to 200 for GetListofDeliveries",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GetListOfDeleviriesStep.verifyThatStatusCodeBeEqualToForGetListofDeliveries(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 36,
+            "name": "validate Response body of getListOfDeleveries",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetListOfDeleviriesStep.validateResponseBodyOfGetListOfDeleveries()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 480000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 37,
+            "name": "validating JsonSchema Of object \"GetListOfDeliverySchema.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetListOfDeliverySchema.json\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GetListOfDeleviriesStep.validatingJsonSchemaOfObject(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetListofDeliveries"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:39.900Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Verify the functionality of confirm delivery with valid data",
+        "description": "",
+        "id": "pwp-flow;verify-the-functionality-of-confirm-delivery-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 41,
+            "name": "Assign truckType and dock for new Delivery Request",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.ConfirmDeliverySteps.assignTruckTypeAndDockForNewDeliveryRequest(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "truckType",
+                  "ACE"
+                ]
+              },
+              {
+                "cells": [
+                  "dock",
+                  "A4"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 44,
+            "name": "Provide dlvItemNum plannedDlvBoxQty and minimumBoxes for the Items in new Delivery Request",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.ConfirmDeliverySteps.provideDlvItemNumPlannedDlvBoxQtyAndMinimumBoxesForTheItemsInNewDeliveryRequest(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "itemSeq",
+                  "plannedDlvBoxQty",
+                  "minimumBoxes"
+                ]
+              },
+              {
+                "cells": [
+                  "000010",
+                  "2",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "000020",
+                  "2",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "000030",
+                  "2",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "000040",
+                  "2",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "000050",
+                  "2",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "000060",
+                  "2",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "000070",
+                  "2",
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1110000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 53,
+            "name": "User calls the Confirm Delivery\u0027s endpoint to confirm the Delivery Request",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.ConfirmDeliverySteps.userCallsTheConfirmDeliverySEndpointToConfirmTheDeliveryRequest()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 54,
+            "name": "verify that status code be equal to \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ConfirmDeliveryDT"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:41.056Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Verify the Functionality of Get Delivery by Delivery Number and Truck Type",
+        "description": "",
+        "id": "pwp-flow;verify-the-functionality-of-get-delivery-by-delivery-number-and-truck-type",
+        "after": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 58,
+            "name": "Provide dlvNumber and truckType to get confirmed delivery request",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetDeliveriesSteps.provideDlvNumberAndTruckTypeToGetConfirmedDeliveryRequest()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 926000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 59,
+            "name": "User calls the get delivery by dlvNumber and truckType to get the confirmed delivery",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetDeliveriesSteps.userCallsTheGetDeliveryByDlvNumberAndTruckTypeToGetTheConfirmedDelivery()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 60,
+            "name": "verify that status code be equal to \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 61,
+            "name": "Verify that new delivery is confirmed successfully",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.ConfirmDeliverySteps.verifyThatNewDeliveryIsConfirmedSuccessfully()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetDelCD"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:42.110Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "Verify the functionality of CreateTOWithListOftransferOrderItems",
+        "description": "",
+        "id": "pwp-flow;verify-the-functionality-of-createtowithlistoftransferorderitems",
+        "after": [
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 65,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "integrator"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "3poXy$6o29"
+                ]
+              },
+              {
+                "cells": [
+                  "requestId",
+                  "0000001376364111"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 69,
+            "name": "Assigning Main Mandatory fields to CreateTOWithListOftransferOrderItems",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.CreateTOStep.assigningMainMandatoryFieldsToCreateTOWithListOftransferOrderItems(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "whNumber",
+                  "114"
+                ]
+              },
+              {
+                "cells": [
+                  "srcPlant",
+                  "1014"
+                ]
+              },
+              {
+                "cells": [
+                  "destPlant",
+                  "5019"
+                ]
+              },
+              {
+                "cells": [
+                  "grpDlv",
+                  "0004362630"
+                ]
+              },
+              {
+                "cells": [
+                  "movementType",
+                  "850"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 75,
+            "name": "Provide transferOrderItems to CreateTOWithListOftransferOrderItems",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.CreateTOStep.provideTransferOrderItemsToCreateTOWithListOftransferOrderItems(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "txfOrdItemSeq",
+                  "matNumber",
+                  "matDesc",
+                  "ean",
+                  "batchNum",
+                  "srcStorageType",
+                  "srcStorageBin",
+                  "srcQty",
+                  "caselot",
+                  "uom",
+                  "mrp",
+                  "itemWeight",
+                  "itemVolume",
+                  "itemType",
+                  "binSeq",
+                  "bbDate",
+                  "storageLoc",
+                  "destStorageType",
+                  "palletQty"
+                ]
+              },
+              {
+                "cells": [
+                  "0001",
+                  "500017406",
+                  "ORAL B KIDS 2+ YEAR TOOTHBRUSH(3N)",
+                  "4902430905183",
+                  "2503210050",
+                  "FRS",
+                  "A030-14-1B",
+                  "96.000",
+                  "48.00",
+                  "EA",
+                  "50.00",
+                  "0.067",
+                  "0.021",
+                  "ZFNF",
+                  "3982",
+                  "",
+                  "3000",
+                  "200",
+                  "1728.000"
+                ]
+              },
+              {
+                "cells": [
+                  "0002",
+                  "500017575",
+                  "COLGATE MAXFRESH BLUE GEL TP(300G)",
+                  "8901314524010",
+                  "0103210170",
+                  "FRS",
+                  "A030-14-1B",
+                  "96.000",
+                  "48.00",
+                  "EA",
+                  "170.00",
+                  "0.360",
+                  "0.027",
+                  "ZFNF",
+                  "3904",
+                  "",
+                  "3000",
+                  "200",
+                  "1440.000"
+                ]
+              },
+              {
+                "cells": [
+                  "0003",
+                  "500017602",
+                  "GRACE CITRUS PASSI SHOWER GEL 250ML",
+                  "8903363007247",
+                  "0103210150",
+                  "FRS",
+                  "A033-07-1A",
+                  "72.000",
+                  "36.00",
+                  "EA",
+                  "150.00",
+                  "0.369",
+                  "0.022",
+                  "ZFNF",
+                  "4143",
+                  "",
+                  "3000",
+                  "200",
+                  "1440.000"
+                ]
+              },
+              {
+                "cells": [
+                  "0004",
+                  "500017603",
+                  "GRACE DEEP IMPACT SHOWER GEL 250M",
+                  "8903363007254",
+                  "0103210150",
+                  "FRS",
+                  "A033-29-1A",
+                  "72.000",
+                  "36.00",
+                  "EA",
+                  "150.00",
+                  "0.303",
+                  "0.022",
+                  "ZFNF",
+                  "4319",
+                  "",
+                  "3000",
+                  "200",
+                  "1440.000"
+                ]
+              },
+              {
+                "cells": [
+                  "0005",
+                  "500017671",
+                  "MEADOWS AIR FRESHENER LAV BLS-240ML",
+                  "8903363006868",
+                  "0103210149",
+                  "FRS",
+                  "A032-09-1B",
+                  "96.000",
+                  "48.00",
+                  "EA",
+                  "149.00",
+                  "0.242",
+                  "0.032",
+                  "ZFNF",
+                  "4161",
+                  "",
+                  "3000",
+                  "200",
+                  "1152.000"
+                ]
+              },
+              {
+                "cells": [
+                  "0006",
+                  "500018038",
+                  "BOROPLUS ALOV HAL CH KES GEL(150ML)",
+                  "8901248154031",
+                  "0103210110",
+                  "FRS",
+                  "A029-03-1A",
+                  "96.000",
+                  "48.00",
+                  "EA",
+                  "110.00",
+                  "0.215",
+                  "0.028",
+                  "ZFNF",
+                  "3583",
+                  "",
+                  "3000",
+                  "200",
+                  "1056.000"
+                ]
+              },
+              {
+                "cells": [
+                  "0007",
+                  "500018258",
+                  "PAMPERS ALOE BABY WIPS(72N)",
+                  "4987176023476",
+                  "0101210199",
+                  "FRS",
+                  "A019-06-1B",
+                  "96.000",
+                  "48.00",
+                  "EA",
+                  "199.00",
+                  "0.250",
+                  "0.099",
+                  "ZFNF",
+                  "2464",
+                  "",
+                  "3000",
+                  "200",
+                  "648.000"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 381000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 84,
+            "name": "User calls the to create TO End point to CreateTOWithListOftransferOrderItems",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.CreateTOStep.userCallsTheToCreateTOEndPointToCreateTOWithListOftransferOrderItems()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 85,
+            "name": "verify that status code be equal to \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"201\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateTOForOriginalDelivery"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:42.549Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 88,
+        "name": "verify the functionality of GetTOEndPoint",
+        "description": "",
+        "id": "pwp-flow;verify-the-functionality-of-gettoendpoint",
+        "after": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 919000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 89,
+            "name": "send GetTO End point to get the data",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetTOstep.sendGetTOEndPointToGetTheData()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 90,
+            "name": "verify that status code be equal to \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 91,
+            "name": "validate Response body of  GetToEndPoint",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetTOstep.validateResponseBodyOfGetToEndPoint()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetTO"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:43.573Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 94,
+        "name": "Check-In Picker with valid data",
+        "description": "",
+        "id": "pwp-flow;check-in-picker-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 499000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 95,
+            "name": "Get Picker\u0027s details to Check-In Picker into DC",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.PickerCheckInSteps.providePickerSDetailsToCheckInPickerIntoDC()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 375000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 96,
+            "name": "User calls the Picker Check-In\u0027s endpoint to check-in the Picker",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.PickerCheckInSteps.userCallsThePickerCheckInSEndpointToCheckInThePicker()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 97,
+            "name": "verify that status code be equal to \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PickerCheckIn"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:44.492Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 100,
+        "name": "Check-In Picker with valid data using DataTable",
+        "description": "",
+        "id": "pwp-flow;check-in-picker-with-valid-data-using-datatable",
+        "after": [
+          {
+            "result": {
+              "duration": 63000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 509000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 101,
+            "name": "Provide Picker\u0027s details using DataTable to Check-In Picker into DC",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.PickerCheckInSteps.providePickerSDetailsUsingDataTableToCheckInPickerIntoDC(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "attendeeId",
+                  "659fd2585c2fd619b4032812"
+                ]
+              },
+              {
+                "cells": [
+                  "checkinTime",
+                  "25-01-2024 11:24"
+                ]
+              },
+              {
+                "cells": [
+                  "deviceSerialNumber",
+                  "1234567890"
+                ]
+              },
+              {
+                "cells": [
+                  "siteId",
+                  "1014"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 106,
+            "name": "User calls the Picker Check-In\u0027s endpoint to check-in the Picker",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.PickerCheckInSteps.userCallsThePickerCheckInSEndpointToCheckInThePicker()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 107,
+            "name": "verify that status code be equal to \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:45.439Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 110,
+        "name": "Verify the functionality of Picker Presence",
+        "description": "",
+        "id": "pwp-flow;verify-the-functionality-of-picker-presence",
+        "after": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1035000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 111,
+            "name": "User calls the Picker Presence endpoint to get the checked-in Pickers",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.PickerPresenceSteps.userCallsThePickerPresenceEndpointToGetTheCheckedInPickers()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 112,
+            "name": "verify that status code be equal to \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [25-01-2024 11:24] but found [24-01-2024 10:44]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat org.testng.Assert.assertEquals(Assert.java:585)\r\n\tat com.dmartLabs.stepdefinitions.PickerPresenceSteps.verifyTheCheckedInPickerDetails(PickerPresenceSteps.java:69)\r\n\tat ✽.Verify the Checked-In Picker details(file:///C:/Users/FD329/OneDrive/Desktop/PWP_API%20Framework/src/test/resources/features/SingleSuite/PWPFlow.feature:113)\r\n",
+              "duration": 12000000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 113,
+            "name": "Verify the Checked-In Picker details",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.PickerPresenceSteps.verifyTheCheckedInPickerDetails()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PickerPresence"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:46.529Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 116,
+        "name": "Assign new Delivery to Picker with valid data",
+        "description": "",
+        "id": "pwp-flow;assign-new-delivery-to-picker-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 35000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 501000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 117,
+            "name": "Get delivery details and assigneeId to assign delivery to picker",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.AssignPickerSteps.getDeliveryDetailsAndAssigneeIdToAssignDeliveryToPicker()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 118,
+            "name": "Provide huMaterial and destSiteId for a delivery to be assigned",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.AssignPickerSteps.provideHuMaterialAndDestSiteIdForADeliveryToBeAssigned(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "huMaterial",
+                  "201"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 945000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 120,
+            "name": "User calls the Assign Picker endpoint to assign delivery to Picker",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.AssignPickerSteps.userCallsTheAssignPickerEndpointToAssignDeliveryToPicker()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 121,
+            "name": "verify that status code be equal to \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AssignPicker"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:48.035Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 124,
+        "name": "Get TO\u0027s Details with valid data",
+        "description": "",
+        "id": "pwp-flow;get-to-s-details-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 125,
+            "name": "Get delivery number to get the details of TO",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetTODetailsSteps.provideDeliveryNumberToGetTheDetailsOfTO()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 921000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 126,
+            "name": "User calls the Get TO details by delivery numbers endpoint to get TO\u0027s details",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetTODetailsSteps.userCallsTheGetTODetailsByDeliveryNumbersEndpointToGetTOSDetails()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 127,
+            "name": "verify that status code be equal to \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 128,
+            "name": "Verify that items are assigned to Picker",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetTODetailsSteps.verifyThatItemsAreAssignedToPicker()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TOBYDELIVERYNUM"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:49.161Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 131,
+        "name": "Verify the functionality of Get Picker",
+        "description": "",
+        "id": "pwp-flow;verify-the-functionality-of-get-picker",
+        "after": [
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 514000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 132,
+            "name": "Provide dcId to get the checked-in Picker\u0027s details",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetPicker.provideDcIdToGetTheCheckedInPickerSDetails(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "siteId",
+                  "1014"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3187000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 134,
+            "name": "User calls the Get Picker endpoint to get checked-in Pickers",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetPicker.userCallsTheGetPickerEndpointToGetCheckedInPickers()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 135,
+            "name": "verify that status code be equal to \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 136,
+            "name": "Verify that delivery is assigned to picker",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetPicker.verifyThatDeliveryIsAssignedToPicker()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GETPICKER"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:52.933Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 139,
+        "name": "Verify vehicle is assigned for a Delivery with valid data",
+        "description": "",
+        "id": "pwp-flow;verify-vehicle-is-assigned-for-a-delivery-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 140,
+            "name": "Provide dock and get delivery number to which vehicle is to be assigned",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.AssignVehicleSteps.provideDockAndGetDeliveryNumberToWhichVehicleIsToBeAssigned(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "dock",
+                  "A1"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 142,
+            "name": "Provide vehicle type and vehicle number for a delivery to be assigned vehicle",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.AssignVehicleSteps.provideVehicleTypeAndVehicleNumberForADeliveryToBeAssignedVehicle(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "vehicleType",
+                  "vehicleRegNum"
+                ]
+              },
+              {
+                "cells": [
+                  "ACE",
+                  "MH02MB9876"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 994000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 145,
+            "name": "User calls the assign vehicle\u0027s endpoint to assign vehicle for a delivery",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.AssignVehicleSteps.userCallsTheAssignVehicleSEndpointToAssignVehicleForADelivery()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 146,
+            "name": "verify that status code be equal to \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VehicleAssign"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Generate Bearer Token from Username and Password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Give Username and Password for Access Token",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.giveUsernameAndPasswordForAccessToken(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "101201"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Dmart@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-08T04:16:53.984Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.loadReportFile(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 149,
+        "name": "Verify user gets the list of dispatch delivery",
+        "description": "",
+        "id": "pwp-flow;verify-user-gets-the-list-of-dispatch-delivery",
+        "after": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.Hooks.onFinish(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1899000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 150,
+            "name": "User calls the dispatch delivery endpoint to get the list of dispatch delivery",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetDispatchDeliverySteps.userCallsTheDispatchDeliveryEndpointToGetTheListOfDispatchDelivery()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 151,
+            "name": "verify that status code be equal to \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.dmartLabs.stepdefinitions.GenericSteps.verifyThatStatusCodeBeEqualTo(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.onBeforeStep()"
+                }
+              }
+            ],
+            "line": 152,
+            "name": "Verify that vehicle is assigned for a delivery",
+            "match": {
+              "location": "com.dmartLabs.stepdefinitions.GetDispatchDeliverySteps.verifyThatVehicleIsAssignedForADelivery()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.dmartLabs.stepdefinitions.Hooks.addScreenshot()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DispatcDeliveriesDetails"
+          }
+        ]
+      }
+    ],
+    "name": "PWP Flow",
+    "description": "",
+    "id": "pwp-flow",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SingleSuite/PWPFlow.feature",
+    "tags": []
+  }
+]

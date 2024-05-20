@@ -1,0 +1,590 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>PWP API Automation</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">PWP - CANARY Environment</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 12, 2024 10:52:46 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Get TO's Details with valid data</p>
+            <p class="text-sm">
+              <span>10:52:46 AM</span> / <span>00:00:03:508</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Get TO's Details with valid data</h5>
+<span class='badge badge-success'>01.12.2024 10:52:46 AM</span>
+<span class='badge badge-danger'>01.12.2024 10:52:49 AM</span>
+<span class='badge badge-default'>00:00:03:508</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:46 AM</td>
+        <td>
+          Give Username and Password for Access Token
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:46 AM</td>
+        <td>
+          Provide delivery number using DataTable to get the details of TO
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:46 AM</td>
+        <td>
+          User calls the Get TO details by delivery numbers endpoint to get TO's details
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:46 AM</td>
+        <td>
+          Send username and password to get accessToken
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:46 AM</td>
+        <td>
+          Base URL is : https://canary.api.meradmart.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:46 AM</td>
+        <td>
+          Headers are - 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:46 AM</td>
+        <td>
+          [Content-Type=application/json, username=101201, password=Dmart@12345]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:46 AM</td>
+        <td>
+          Endpoint is : /iam/authenticate/v1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          Authentication API Response is : 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({
+    "accessToken": "Bearer eyJ0eXBlIjoiYXQiLCJhbGciOiJSUzI1NiIsImtpZCI6IjhhZWIwM2RlLWU1MGMtNDEyZC04MTllLWZiMzNhZWI5ODlkZiJ9.eyJzdWIiOiI2NTc3Zjk4MTMwZTMzZDMzOTAzZTc4NzYiLCJzaXRlIjoiMTAxNCIsInJvbGVzIjpbIkRFTElWRVJZIFBMQU5ORVIiLCJESVNQQVRDSEVSIFBMQU5ORVIiLCJQSUNLRVIiLCJESVNQQVRDSEVSIiwiTURNIEFETUlOIiwiUElDSyBQTEFOTkVSIiwiQURNSU4iLCJQSUNLRVIgUk8iLCJNRE0gRURJVE9SIiwiR0FURUtFRVBFUiIsIlBJQ0sgUExBTk5FUiBSTyIsIkRFTElWRVJZIFBMQU5ORVIgUk8iLCJDSEVDS0lOIE9GRklDRVIgUk8iLCJDSEVDS0lOIE9GRklDRVIiXSwiaXNzIjoiaHR0cHM6XC9cL3d3dy5tZXJhZG1hcnQuY29tIiwiZXhwIjoxNzA1MTIzMzY4LCJpYXQiOjE3MDUwMzY5NjgsInVzZXIiOiIxMDEyMDEiLCJqdGkiOiJkNTUwMmM0Yi1lNjQzLTQ2M2MtOGJjMC1jMjdlMzdhNTBiMTYifQ.EjO6XWKgWGcUgFDKZLhKrPxYMhyNLOX9zP-39EFZexHkOVQEvldm-X-YjcPUqUvlgNuLyIJu1Tv7k3M8vexsBJ2FksGEsDaXkwEBPak488nPgLdl8zzlqeud7XDhxkEdA-awcrFVKl6gVI-UCJ4hYZLmYmcHg2r6dJ0QQJwMUJtyMN5RZO-onG4x_6QccpY40PQplo5b4gapwIoThE78PaD9fy_rU5IrZdWarBhfmhgSvQiLFnTJwVArejLHM-f_Hv6wpR7q4IhMbEEKFtuLRdQzAc4WJJdsSQJXfauU_BEvSWACk-86f69V81DUQUgKVziXFUVU4RrrGMkB66AKLw",
+    "refreshToken": "Bearer eyJ0eXBlIjoicnQiLCJhbGciOiJSUzI1NiIsImtpZCI6IjhhZWIwM2RlLWU1MGMtNDEyZC04MTllLWZiMzNhZWI5ODlkZiJ9.eyJzdWIiOiI2NTc3Zjk4MTMwZTMzZDMzOTAzZTc4NzYiLCJpc3MiOiJodHRwczpcL1wvd3d3Lm1lcmFkbWFydC5jb20iLCJleHAiOjE3MDUyMDk3NjgsImlhdCI6MTcwNTAzNjk2OCwidXNlciI6IjEwMTIwMSIsImp0aSI6Ijk2OTQ2M2VjLWYxZDUtNGYxMS04YjMwLTg2NTNhZWViYmEwYSJ9.c9S1POvlJC8n9pxc97XZ80JISbv03XzlbQlLTR228PUz2WPANGqJcmCmlmE9yPgNZ2cBycA2gKegftc5X7h3uNtuX7g7WPyNRw_g8-wI-yCBoxJaOXGIWpzFK99pfCI7qmY320at_YaUORytaEp4J5rJT2uB7Auh1ytpO0DwSaLyhjFQyOrnhQeJe170dqEKwO6vfgcwPvmexrX1ql6zC6du6yWddoGE2zxW0mVZbSI_rtknbrGNddI1Laxo89OPbsXjtBCCYKAjdkUqgwqkFLHs3UgvSIXR56SrctY-d6Rn9BFSHZRRsSa6I91agAWjdlv-ZruIVYeP269NWSyOWw"
+}); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          Response Status Code for Authentication is 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          Response Time is 1648 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          Base URL is : https://canary.api.meradmart.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          Headers are - 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          [Content-Type=application/json, Authorization=Bearer eyJ0eXBlIjoiYXQiLCJhbGciOiJSUzI1NiIsImtpZCI6IjhhZWIwM2RlLWU1MGMtNDEyZC04MTllLWZiMzNhZWI5ODlkZiJ9.eyJzdWIiOiI2NTc3Zjk4MTMwZTMzZDMzOTAzZTc4NzYiLCJzaXRlIjoiMTAxNCIsInJvbGVzIjpbIkRFTElWRVJZIFBMQU5ORVIiLCJESVNQQVRDSEVSIFBMQU5ORVIiLCJQSUNLRVIiLCJESVNQQVRDSEVSIiwiTURNIEFETUlOIiwiUElDSyBQTEFOTkVSIiwiQURNSU4iLCJQSUNLRVIgUk8iLCJNRE0gRURJVE9SIiwiR0FURUtFRVBFUiIsIlBJQ0sgUExBTk5FUiBSTyIsIkRFTElWRVJZIFBMQU5ORVIgUk8iLCJDSEVDS0lOIE9GRklDRVIgUk8iLCJDSEVDS0lOIE9GRklDRVIiXSwiaXNzIjoiaHR0cHM6XC9cL3d3dy5tZXJhZG1hcnQuY29tIiwiZXhwIjoxNzA1MTIzMzY4LCJpYXQiOjE3MDUwMzY5NjgsInVzZXIiOiIxMDEyMDEiLCJqdGkiOiJkNTUwMmM0Yi1lNjQzLTQ2M2MtOGJjMC1jMjdlMzdhNTBiMTYifQ.EjO6XWKgWGcUgFDKZLhKrPxYMhyNLOX9zP-39EFZexHkOVQEvldm-X-YjcPUqUvlgNuLyIJu1Tv7k3M8vexsBJ2FksGEsDaXkwEBPak488nPgLdl8zzlqeud7XDhxkEdA-awcrFVKl6gVI-UCJ4hYZLmYmcHg2r6dJ0QQJwMUJtyMN5RZO-onG4x_6QccpY40PQplo5b4gapwIoThE78PaD9fy_rU5IrZdWarBhfmhgSvQiLFnTJwVArejLHM-f_Hv6wpR7q4IhMbEEKFtuLRdQzAc4WJJdsSQJXfauU_BEvSWACk-86f69V81DUQUgKVziXFUVU4RrrGMkB66AKLw]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          Endpoint is : /wms/pick-planner/delivery/v1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          Get TO's details Response Status Code is : 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          Get To's details Response Payload is - 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-1'></div>
+ <script>
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create({
+    "txfOrdNumber": "0097311239",
+    "whNumber": "114",
+    "srcPlant": "1014",
+    "destPlantName": "Mulund",
+    "destPlant": "4019",
+    "dispatchType": "Box",
+    "deliveryDate": "20240112",
+    "dlvNumber": "0097311239",
+    "status": "Assigned",
+    "transferOrderItems": [
+        {
+            "txfOrdItemNumber": "00973112391140001",
+            "txfOrdItemSeq": "0001",
+            "matDesc": "ORAL B KIDS 2+ YEAR TOOTHBRUSH(3N)",
+            "srcQty": 96,
+            "itemWeight": "3.22",
+            "itemVolume": "1.01",
+            "itemType": "ZFNF",
+            "wtCategory": "L",
+            "boxes": 2,
+            "section": "FMCG Non-Food",
+            "category": "Hair+Oral etc",
+            "aisle": "A030",
+            "status": "Assigned",
+            "assigneeId": "6577f98130e33d33903e7876",
+            "picker": "Yash mulkalwar",
+            "srcStorageType": "FRS",
+            "srcStorageBin": "A030-14-1B",
+            "pickExceptionStatus": null,
+            "messages": null,
+            "stickerNumber": null
+        },
+        {
+            "txfOrdItemNumber": "00973112391140002",
+            "txfOrdItemSeq": "0002",
+            "matDesc": "COLGATE MAXFRESH BLUE GEL TP(300G)",
+            "srcQty": 96,
+            "itemWeight": "17.28",
+            "itemVolume": "1.30",
+            "itemType": "ZFNF",
+            "wtCategory": "H",
+            "boxes": 2,
+            "section": "FMCG Non-Food",
+            "category": "Hair+Oral etc",
+            "aisle": "A031",
+            "status": "Assigned",
+            "assigneeId": "6577f98130e33d33903e7876",
+            "picker": "Yash mulkalwar",
+            "srcStorageType": "FRS",
+            "srcStorageBin": "A031-24-1B",
+            "pickExceptionStatus": null,
+            "messages": null,
+            "stickerNumber": null
+        },
+        {
+            "txfOrdItemNumber": "00973112391140003",
+            "txfOrdItemSeq": "0003",
+            "matDesc": "GRACE CITRUS PASSI SHOWER GEL 250ML",
+            "srcQty": 72,
+            "itemWeight": "13.28",
+            "itemVolume": "0.79",
+            "itemType": "ZFNF",
+            "wtCategory": "H",
+            "boxes": 2,
+            "section": "FMCG Non-Food",
+            "category": "Hair+Oral etc",
+            "aisle": "A033",
+            "status": "Assigned",
+            "assigneeId": "6577f98130e33d33903e7876",
+            "picker": "Yash mulkalwar",
+            "srcStorageType": "FRS",
+            "srcStorageBin": "A033-07-1A",
+            "pickExceptionStatus": null,
+            "messages": null,
+            "stickerNumber": null
+        },
+        {
+            "txfOrdItemNumber": "00973112391140004",
+            "txfOrdItemSeq": "0004",
+            "matDesc": "GRACE DEEP IMPACT SHOWER GEL 250M",
+            "srcQty": 72,
+            "itemWeight": "10.91",
+            "itemVolume": "0.79",
+            "itemType": "ZFNF",
+            "wtCategory": "M",
+            "boxes": 2,
+            "section": "FMCG Non-Food",
+            "category": "Hair+Oral etc",
+            "aisle": "A033",
+            "status": "Assigned",
+            "assigneeId": "6577f98130e33d33903e7876",
+            "picker": "Yash mulkalwar",
+            "srcStorageType": "FRS",
+            "srcStorageBin": "A033-29-1A",
+            "pickExceptionStatus": null,
+            "messages": null,
+            "stickerNumber": null
+        },
+        {
+            "txfOrdItemNumber": "00973112391140005",
+            "txfOrdItemSeq": "0005",
+            "matDesc": "MEADOWS AIR FRESHENER LAV BLS-240ML",
+            "srcQty": 96,
+            "itemWeight": "11.62",
+            "itemVolume": "1.54",
+            "itemType": "ZFNF",
+            "wtCategory": "M",
+            "boxes": 2,
+            "section": "FMCG Non-Food",
+            "category": "Home Cr+Laundry etc",
+            "aisle": "A032",
+            "status": "Assigned",
+            "assigneeId": "6577f98130e33d33903e7876",
+            "picker": "Yash mulkalwar",
+            "srcStorageType": "FRS",
+            "srcStorageBin": "A032-09-1B",
+            "pickExceptionStatus": null,
+            "messages": null,
+            "stickerNumber": null
+        },
+        {
+            "txfOrdItemNumber": "00973112391140006",
+            "txfOrdItemSeq": "0006",
+            "matDesc": "BOROPLUS ALOV HAL CH KES GEL(150ML)",
+            "srcQty": 48,
+            "itemWeight": "5.16",
+            "itemVolume": "0.67",
+            "itemType": "ZFNF",
+            "wtCategory": "L",
+            "boxes": 2,
+            "section": "FMCG Non-Food",
+            "category": "Skin Care, Hygiene etc",
+            "aisle": "A029",
+            "status": "Assigned",
+            "assigneeId": "6577f98130e33d33903e7876",
+            "picker": "Yash mulkalwar",
+            "srcStorageType": "FRS",
+            "srcStorageBin": "A029-03-1A",
+            "pickExceptionStatus": null,
+            "messages": null,
+            "stickerNumber": null
+        },
+        {
+            "txfOrdItemNumber": "00973112391140007",
+            "txfOrdItemSeq": "0007",
+            "matDesc": "PAMPERS ALOE BABY WIPS(72N)",
+            "srcQty": 96,
+            "itemWeight": "6.00",
+            "itemVolume": "2.38",
+            "itemType": "ZFNF",
+            "wtCategory": "L",
+            "boxes": 4,
+            "section": "FMCG Non-Food",
+            "category": "Skin Care, Hygiene etc",
+            "aisle": "A019",
+            "status": "Assigned",
+            "assigneeId": "6577f98130e33d33903e7876",
+            "picker": "Yash mulkalwar",
+            "srcStorageType": "FRS",
+            "srcStorageBin": "A019-06-1B",
+            "pickExceptionStatus": null,
+            "messages": null,
+            "stickerNumber": null
+        }
+    ],
+    "unassignedItems": "0",
+    "totalItems": 7,
+    "totalBoxes": 16,
+    "assignedItems": 7,
+    "pickedItems": 0,
+    "unassignedBoxes": 0,
+    "assignedBoxes": 16,
+    "pickedBoxes": 0
+}); 
+  }
+  jsonTreeCreate1();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          Response Time is : 425 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          verify that status code is : 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          <span class='badge white-text green'>Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:52:49 AM</td>
+        <td>
+          Expected Status Code is 200 and the Actual Status Code is 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 12, 2024 10:52:46 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 12, 2024 10:52:49 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='4%'><b>1</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>22</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Get TO's Details with valid data":3.508
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 1,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 22
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
